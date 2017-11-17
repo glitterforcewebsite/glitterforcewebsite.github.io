@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://lh3.google.com/u/0/d/1XdSwHz0sWmRmxLxA52M7igVPKss2SyuU=w1366-h637-iv1');
+      background-size: cover;
+      color: black;
+    }
+    body {
+      text-align: center;
+      
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'Berkshire Swash', cursive;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    #header-ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    .form {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <img href="" >
+    <h1>Glitter Force Webiste</h1>
+    <ul id="header-ul">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Characters</a></li>
+      <li><a href="#">Existing Glitter Forces</a></li>
+      <li><a href="#">Create Your Glitter Force Today</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>On This Page You Can Team Up With Friends and make your very own Glitter Force!</h2>
+    <p>There are two types of Glitter Forces; a team force and a partner force.
+    In a team force you have 3-8 Glitter Force Warriors who can all transform seperately. In a partner force you have 2 Glitter Force Warriors who have to be together to transform.</p>
+     <button>Like</button>
+     </article>
+     <article>
+    <h2>Pros of a Team Force</h2>
+    <ul>
+      <li>- all members can transform seperately</li>
+      <br />
+      <li>- all members can attack seperately</li>
+      <br />
+      <li>- 4-8 members can be on the team</li>
+    </ul>
+     <h2>Pros of a Partner Force</h2>
+    <ul>
+      <li>- good for people who are less social</li>
+      <br />
+      <li>- members are stronger together</li>
+      <br />
+      <li>- less members are required for a team</li>
+    </ul>
+  </article>
+  <h2>Create Your Own Partner Force</h2>
+  <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdqUIM-TMkE51FvQ_L3001c1ZqcBgUfwF8YezyCMhEFGTPTQg/viewform?embedded=true" width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <h2>Create Your Own Team Force</h2>
+  <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLScxVS9j39-oezoJEd3FS6xyYsEkvC248tooN7j6qu3TlpnlSQ/viewform?embedded=true" width="600" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
