@@ -1,1 +1,71 @@
-# glitterforcewebsite.github.io
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://lh3.google.com/u/0/d/1XdSwHz0sWmRmxLxA52M7igVPKss2SyuU=w1366-h637-iv1');
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: 'Berkshire Swash', cursive;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <img href="" >
+    <h1>Glitter Force Webiste</h1>
+    <ul>
+      <li><a href="glitterforcewebsite.github.io/home">Home</a></li>
+      <li><a href="glitterforcewebsite.github.io/existingglitterforces">Existing Glitter Forces</a></li>
+      <li><a href="glitterforcewebsite.github.io/createyourglitterforcetoday">Create Your Glitter Force Today</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>This is a website all about Glitter Force!!!!!</h2>
+    <p>You can view info on your favorite characters, view existing Glitter Forces, and even create your own Glitter Force with some friends.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
