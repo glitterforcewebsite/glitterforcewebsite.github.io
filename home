@@ -51,10 +51,9 @@
   <img href="" >
     <h1>Glitter Force Webiste</h1>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Characters</a></li>
-      <li><a href="#">Existing Glitter Forces</a></li>
-      <li><a href="#">Create Your Glitter Force Today</a></li>
+      <li><a href="glitterforcewebsite.github.io/home">Home</a></li>
+      <li><a href="glitterforcewebsite.github.io/existingglitterforces">Existing Glitter Forces</a></li>
+      <li><a href="glitterforcewebsite.github.io/createyourglitterforcetoday">Create Your Glitter Force Today</a></li>
     </ul>
   </header>
   <article>
